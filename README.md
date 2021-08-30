@@ -4,6 +4,8 @@
 
 ### Dr Maria Davis
 
+[![DOI](https://zenodo.org/badge/401438557.svg)](https://zenodo.org/badge/latestdoi/401438557)
+
 Supporting information for BIOL 266 Plant Physiology at home lab.
 
 The rendered Rmarkdown file is viewable [here](https://simpson-lab.github.io/plant-physiology-lab/).
