@@ -19,8 +19,6 @@ library('cowplot')
 library('here')
 ```
 
-#### This file is hosted at: [bit.ly/biol266f19](http://bit.ly/biol266f19)
-
 # Getting started
 
 To get started, open your web browser, head to [rstudio.cloud]() and log in using your RStudio Cloud account.
@@ -725,6 +723,6 @@ Aspects of the data that we haven't considered or simply ignored are:
 
 1. What if the growth of the plants is non-linear? Our models assumed linear growth but if the growth appears to speed up or slow down over the course of the experiment, our model will give biased estimates of the growth rates.
 
-2. We assumed that the individual measurements were independent of one another. However, you repeatedly measured the same plants, within your groups, over the course of the experiment. The observations for any one plant are, all else being equal, more likely to be similar to one another than they are to another plant. The result of repeatedly measuring the same individuals over time is that we have **fewer** observations than is implied by the number of rows in the data set. We would need to use a repeated measures ANOVA or, better still, a mixed modelling approach to account for the lack of independence. If you take BIOL 440 with Dr. Vanderwel you will learn about mixed models.
+2. We assumed that the individual measurements were independent of one another. However, you repeatedly measured the same plants, within your groups, over the course of the experiment. The observations for any one plant, all else being equal, are likely to be more similar to one another than they are to another plant. The result of repeatedly measuring the same individuals over time is that we have **fewer** observations than is implied by the number of rows in the data set. We would need to use a repeated measures ANOVA or, better still, a mixed modelling approach to account for the lack of independence. If you take BIOL 440 with Dr. Vanderwel you will learn about mixed models.
 
 3. Variables such a plant height and fresh weight are continuous variables. They also have a fixed zero point --- you can't have a plant with negative height or weight (in fact you can't measure a plant with *zero* height or weight either!). Data like this have what we call a *non-constant mean-variance relationship* --- as we increase in height or weight we expect the variation about the mean or expected value to increase. Think about it, if we had a zero height plant there is no variation about that value as there is no plant. Hence as we increase height or weight the spread of the data must increase. This is known as *heteroscedasticity*. Also, we could extrapolate from our linear models and predict negative weight and height plants, which doesn't make sense. The class of models called **generalized linear models** would allow us to handle these features of the data. You'll learn about these models too if you take BIOL 440!

@@ -335,9 +335,6 @@ div.tocify {
 </div>
 
 
-<div id="this-file-is-hosted-at-bit.lybiol266f19" class="section level4">
-<h4>This file is hosted at: <a href="http://bit.ly/biol266f19">bit.ly/biol266f19</a></h4>
-</div>
 <div id="getting-started" class="section level1">
 <h1>Getting started</h1>
 <p>To get started, open your web browser, head to <a href="">rstudio.cloud</a> and log in using your RStudio Cloud account.</p>
@@ -1011,7 +1008,7 @@ div.tocify {
 <p>Aspects of the data that we haven’t considered or simply ignored are:</p>
 <ol style="list-style-type: decimal">
 <li><p>What if the growth of the plants is non-linear? Our models assumed linear growth but if the growth appears to speed up or slow down over the course of the experiment, our model will give biased estimates of the growth rates.</p></li>
-<li><p>We assumed that the individual measurements were independent of one another. However, you repeatedly measured the same plants, within your groups, over the course of the experiment. The observations for any one plant are, all else being equal, more likely to be similar to one another than they are to another plant. The result of repeatedly measuring the same individuals over time is that we have <strong>fewer</strong> observations than is implied by the number of rows in the data set. We would need to use a repeated measures ANOVA or, better still, a mixed modelling approach to account for the lack of independence. If you take BIOL 440 with Dr. Vanderwel you will learn about mixed models.</p></li>
+<li><p>We assumed that the individual measurements were independent of one another. However, you repeatedly measured the same plants, within your groups, over the course of the experiment. The observations for any one plant, all else being equal, are likely to be more similar to one another than they are to another plant. The result of repeatedly measuring the same individuals over time is that we have <strong>fewer</strong> observations than is implied by the number of rows in the data set. We would need to use a repeated measures ANOVA or, better still, a mixed modelling approach to account for the lack of independence. If you take BIOL 440 with Dr. Vanderwel you will learn about mixed models.</p></li>
 <li><p>Variables such a plant height and fresh weight are continuous variables. They also have a fixed zero point — you can’t have a plant with negative height or weight (in fact you can’t measure a plant with <em>zero</em> height or weight either!). Data like this have what we call a <em>non-constant mean-variance relationship</em> — as we increase in height or weight we expect the variation about the mean or expected value to increase. Think about it, if we had a zero height plant there is no variation about that value as there is no plant. Hence as we increase height or weight the spread of the data must increase. This is known as <em>heteroscedasticity</em>. Also, we could extrapolate from our linear models and predict negative weight and height plants, which doesn’t make sense. The class of models called <strong>generalized linear models</strong> would allow us to handle these features of the data. You’ll learn about these models too if you take BIOL 440!</p></li>
 </ol>
 </div>
