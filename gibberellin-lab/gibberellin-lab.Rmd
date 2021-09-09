@@ -26,7 +26,7 @@ To get started, open your web browser, head to [rstudio.cloud]() and log in usin
 Once you have logged in, start a **New Project** by clicking the button to the right of "Your Projects"
 
 ```{r show-new-project-image, echo=FALSE, out.width="800px"}
-knitr::include_graphics(here("images", "rstudio-cloud-new-project-annotated.png"))
+knitr::include_graphics("../images/rstudio-cloud-new-project-annotated.png")
 ```
 
 After you click the button, **rstudio.cloud** will deploy a new RStudio instance, which may take a minute or two, so be patient.
