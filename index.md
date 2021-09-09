@@ -14,3 +14,6 @@
 
 * [Rendered R Markdown document`.Rmd`](nitrogen-addition-lab/index.html)
 
+## Source code and Data
+
+* R Markdown source code and data are in the [GitHub repository](https://github.com/simpson-lab/plant-physiology-lab)
