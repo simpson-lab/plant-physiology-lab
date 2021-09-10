@@ -1,0 +1,26 @@
+{   
+    "creators": [
+      {
+        "orcid": "0000-0002-9084-8413", 
+        "affiliation": "Aarhus University", 
+        "name": "Gavin Simpson"
+      }, 
+      {
+        "affiliation": "University of Regina", 
+        "name": "Maria Davis"
+      }
+    ], 
+    "license": {
+      "id": "MIT"
+    }, 
+    
+    "title": "Materials for 'An at-home lab in plant biology designed to engage students in the process of science'", 
+ 
+    "access_right": "open", 
+    
+    "resource_type": {
+      "type": "lesson", 
+      "title": "Lesson"
+    }
+  }
+}
